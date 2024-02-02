@@ -9,8 +9,8 @@ terraform {
   # Update this block with the location of your terraform state file
   backend "azurerm" {
     resource_group_name  = "rg-terraform"
-    storage_account_name = "stotertues0923"
-    container_name       = "backstage-tuesday"
+    storage_account_name = "stoterfritestman"
+    container_name       = "backstage-friday"
     key                  = "terraform.tfstate"
     use_oidc             = true
   }
